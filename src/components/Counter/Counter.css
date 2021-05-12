@@ -1,0 +1,25 @@
+.Counter {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.Counter-error {
+    color: rgba(220, 20, 20, 0.781);
+    font-weight: bold;
+}
+
+.Button {
+    background-color: #919191;
+    border-radius: 4px;
+    border: 1pt solid #919191;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Button:hover {
+    opacity: 0.9;
+}

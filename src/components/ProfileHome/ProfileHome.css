@@ -1,0 +1,33 @@
+.Profile {
+    display: flex;
+    padding: 50px;
+}
+
+.Profile-left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Profile-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.Profile-right p {
+    width: 70%;
+}
+
+.Profile-image-wrapper {
+    border-radius: 50%;
+    border: 2pt solid rgba(27, 90, 125, 0.8);
+    overflow: hidden;
+    width: 60%;
+}
+
+.Profile-image-wrapper img {
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.Head {
+    background-color: #919191;
+    display: flex;
+    height: 70px;
+}
+
+.Head-icon {
+    width: 210px;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.Head-icon img {
+    width: 200px;
+}
