@@ -18,14 +18,14 @@
 }
 
 .Profile-right p {
-    width: 70%;
+    width: 60%;
 }
 
 .Profile-image-wrapper {
     border-radius: 50%;
     border: 2pt solid rgba(27, 90, 125, 0.8);
     overflow: hidden;
-    width: 60%;
+    width: 50%;
 }
 
 .Profile-image-wrapper img {

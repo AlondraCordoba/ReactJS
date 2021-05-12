@@ -59,6 +59,7 @@ function Counter(props) {
       {props.children}
     </div>
   );
+  
 }
 
 export default Counter;
