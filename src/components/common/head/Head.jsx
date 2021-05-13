@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import { excerE } from '../../../assets/utils/constants';
+import Nav from '../nav/Nav';
+import { excerE } from '../../../utils/constants';
 import icon from '../../../assets/img/logoArkusN.png';
 import './Head.css';
 
@@ -23,7 +23,7 @@ const Head = (props) => {
       </div>
 
       {items.map(item => (
-        <Navbar
+        <Nav
           key={item.title}
           selected={props.view === item.id}
           onNav={handleNavigation(item.id)}

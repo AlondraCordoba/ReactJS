@@ -1,14 +1,14 @@
 import React from 'react';
-import NavBar from '../navbar/Navbar';
-import './Slide.css';
+import Nav from '../nav/Nav';
+import './SlideBar.css';
 
-const Slide = (props) => {
+const SlideBar = (props) => {
   const handleNavigation = (selectedItem) => () => props.onNav(selectedItem);
 
   return (
-    <div className="Slide">
+    <div className="SlideBar">
       {props.items.map(item => (
-        <NavBar
+        <Nav
           key={item.title}
           title={item.title}
           vertical
@@ -20,4 +20,4 @@ const Slide = (props) => {
   );
 };
 
-export default Slide;
+export default SlideBar;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import SlideN from '../shared/slide/Slide';
-import Counter from '../Counter/CounterWithHooks';
-import { excerNum } from '../../assets/utils/constants';
+import SlideBar from '../common/slideBar/SlideBar';
+import Counter from './Counter/CounterWithHooks';
+import { excerNum } from '../../utils/constants';
 import './Excercises.css';
 
 const items = [
@@ -31,7 +31,7 @@ const Excercises = () => {
 
   return (
     <div className="Excercises">
-      <SlideN
+      <SlideBar
         items={items}
         selected={actualExercise}
         onNav={handleChangeExcercise}

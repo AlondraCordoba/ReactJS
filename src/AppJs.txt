@@ -1,0 +1,15 @@
+
+    // const sayHello = () => {
+    //     console.log("HELLOO!");
+    // }
+
+    // return ( 
+    // <div className = "App" >
+    // <Head className = "App-Head" >
+    // < Counter maxValue = { 15 }
+    // sayHi = { sayHello } >
+    // <span > Hey you! </span> 
+    // </Counter> 
+    // </Head> 
+    // </div >
+    // );

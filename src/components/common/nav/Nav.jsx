@@ -1,14 +1,14 @@
 import React from 'react';
-import './Navbar.css';
+import './Nav.css';
 
-const Navbar = (props) => {
-  const classNames = ['Navbar-item'];
+const Nav = (props) => {
+  const classNames = ['Nav-item'];
   if (props.selected) {
-    classNames.push('Navbar-item-selected');
+    classNames.push('Nav-item-selected');
   }
 
   if (props.vertical) { 
-    classNames.push('Navbar-item-vertical');
+    classNames.push('Nav-item-vertical');
   }
 
   return (
@@ -22,4 +22,4 @@ const Navbar = (props) => {
   );
 };
 
-export default Navbar;
+export default Nav;
