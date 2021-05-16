@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.ButtonPokemon {
+    background-color: #2a75bb;
+    border: 1pt solid #3c5aa6; 
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;  
+  }
+  
+  .ButtonPokemon:hover {
+    background-color: #ffcb05;
+    border: 1pt solid #c7a008;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;  
+  }
+  

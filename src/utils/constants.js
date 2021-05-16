@@ -6,4 +6,5 @@ export const excerE = {
 export const excerNum = {
     COUNTER: 1,
     NUM: 2, // LIST
+    POKEMON: 3
 }

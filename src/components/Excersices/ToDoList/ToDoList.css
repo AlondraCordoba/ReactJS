@@ -1,0 +1,53 @@
+.Task {
+    border: 1pt solid lightgray;
+  }
+
+  .Task-done {
+    color: green;
+  }
+
+    .task {
+      display: flex;
+      flex-direction: column;
+    }
+
+    button {
+      font-size: 14px;
+      background-color: rgba(209, 81, 61, 0.842);
+      color: #fff;
+      border-radius: 8px;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+      button:hover {
+        background-color: rgba(173, 47, 28, 0.822);
+      }
+
+        button:active {
+          background-color: rgb(130,35,21);
+        }
+
+          button:focus {
+            outline: 0;
+          }
+
+            input[type='text'] { font-size: 16px}
+
+              .task-text input {
+                padding: 4px;
+              }
+
+              .task-text {
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 16px;
+                display: flex;
+                align-items: center;
+              }
+              
+                .task-actions {
+                  display: flex;
+                  justify-content: space-between;
+                }
