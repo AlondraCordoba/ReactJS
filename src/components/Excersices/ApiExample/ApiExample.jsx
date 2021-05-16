@@ -12,6 +12,8 @@ const ApiExample = () => {
   const [loading, setLoading] = useState(false);
   const [back, setBackPokemon] = useState(false);
   const [shiny, setShinyPokemon] = useState(false);
+  const RandomId = Math.floor(Math.random() * 896 + 1);
+  const [ pokemonID ] = useState(RandomId);
 
   const callApi = useCallback(async (pokemon) => {
     setLoading(true);
@@ -34,8 +36,8 @@ const ApiExample = () => {
 
 
   useEffect(() => {
-    callApi('1');
-  }, [callApi]);
+    callApi(`${pokemonID}`);
+  }, [callApi, pokemonID]);
 
   const handleSwitchPokemon = (event) => {
     setPokemon(event.target.value);
