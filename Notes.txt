@@ -14,8 +14,7 @@ App.js
     // </div >
     // );
 
-                                          
-          
+                                              
 
 // RANDOM POKEMON
   const RandomId = Math.floor(Math.random() * 896 + 1);

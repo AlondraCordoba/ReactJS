@@ -12,6 +12,7 @@ const ApiExample = () => {
   const [loading, setLoading] = useState(false);
   const [back, setBackPokemon] = useState(false);
   const [shiny, setShinyPokemon] = useState(false);
+
   const RandomId = Math.floor(Math.random() * 896 + 1);
   const [ pokemonID ] = useState(RandomId);
 
@@ -92,7 +93,7 @@ const ApiExample = () => {
         )
         : null}
 
-        <div className="errorMessage" error><span>{error}</span></div>
+        <div className="errorMessage"><span>{error}</span></div>
 
     </div>
   );
