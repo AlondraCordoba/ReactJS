@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './SearchPokemon.css';
 
 const SearchPokemon = (props) => (
@@ -11,5 +12,10 @@ const SearchPokemon = (props) => (
   </button>
 );
 
+SearchPokemon.propTypes = {
+  onClick: PropTypes.func,
+  children: PropTypes.node,
+  className: PropTypes.string,
+};
 
 export default SearchPokemon;

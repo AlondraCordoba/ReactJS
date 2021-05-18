@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SearchPokemon from '../SearchPokemon/SearchPokemon';
 import pokebolaImage from '../../../../assets/img/pokebola.png';
 import './Pokemon.css';
@@ -33,5 +34,18 @@ const Pokemon = (props) => {
   );
 };
 
+
+Pokemon.propTypes = {
+  front: PropTypes.bool.isRequired,
+  images: PropTypes.shape({
+    front: PropTypes.string.isRequired,
+    frontShiny: PropTypes.string.isRequired,
+    back: PropTypes.string.isRequired,
+    backShiny: PropTypes.string.isRequired,
+  }).isRequired,
+  shiny: PropTypes.bool.isRequired,
+  onFlip: PropTypes.func.isRequired,
+  onChangeType: PropTypes.func.isRequired
+};
 
 export default Pokemon;
