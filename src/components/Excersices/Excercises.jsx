@@ -46,7 +46,7 @@ const Excercises = () => {
   }
 
   return (
-    <div className="Excercises">
+    <div className="excercises">
       <SlideBar
         items={items}
         selected={actualExercise}

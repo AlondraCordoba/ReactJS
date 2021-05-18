@@ -1,32 +1,36 @@
 .api {
     margin-top: 30px;
     margin-left: 50px;
-  }  
-   .api input {
+}  
+  .api input {
       border: 1pt solid rgba(71, 70, 70, 0.8);
       padding: 5px;
-    }
-      .searchPokemon {
-        margin-left: 25px;
-      }
-        .logo {
-          align-items: center;
-          display: flex;
-          flex-direction: column;
-          flex: 1;
-          margin-top: 4%;
-          margin-bottom: 2%;
-          margin-left: 5%;
-          margin-right: 5%;
-        }
-          .logoImage {
-            overflow: hidden;
-            width: 100%;
-          }
-            .errorMessage{
-              margin-top: 10%;
-              color: firebrick;
-              font-weight: bold;
-              font-size: 18px;
-            }
+  }
+
+.searchPokemon {
+  margin-left: 25px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logoImage {
+  overflow: hidden;
+  width: 100%;
+}
+
+.errorMessage {
+  margin-top: 10%;
+  color: firebrick;
+  font-weight: bold;
+  font-size: 18px;
+}
             

@@ -4,6 +4,7 @@
     flex-direction: column;
     margin-top: 15px;
   }
+
   .pokemon span {
     margin-bottom: 5%;
     text-align: center;
@@ -12,9 +13,10 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;  
   }
-    .pokebola img{
+  
+.pokebola img{
       height: 30px;
       width: 30px;
       margin-left: 45%;
       margin-right: 50%;
-    }
+}

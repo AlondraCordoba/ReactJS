@@ -61,7 +61,7 @@ const ToDoList = () => {
 
     {items.map(item => ( 
           <div key={item.task} className="task">
-            <span className={item.completed ? 'Task-done' : ''}>
+            <span className={item.completed ? 'task-done' : ''}>
               {item.task}
             </span>
             <div className="task-text">

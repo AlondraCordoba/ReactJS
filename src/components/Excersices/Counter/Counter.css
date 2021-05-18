@@ -1,4 +1,4 @@
-.Counter {
+.counter {
     align-items: stretch;
     display: flex;
     flex-direction: column;
@@ -6,20 +6,20 @@
     margin-left: 40px;
 }
 
-    .Counter-error {
-        color: rgba(220, 20, 20, 0.781);
-        font-weight: bold;
-    }
+.counter-error {
+    color: rgba(220, 20, 20, 0.781);
+    font-weight: bold;
+}
 
-        .Button {
-            background-color: #919191;
-            border-radius: 4px;
-            border: 1pt solid #919191;
-            color: #fff;
-            cursor: pointer;
-            padding: 5px;
-        }
+.button {
+    background-color: #919191; 
+    border-radius: 4px;
+    border: 1pt solid #919191;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
 
-            .Button:hover {
-                opacity: 0.9;
-            }
+    .button:hover {
+        opacity: 0.9;
+     }

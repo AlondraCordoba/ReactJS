@@ -39,18 +39,18 @@ function Counter(props) {
   }, []);
 
   return (
-    <div className="Counter">
+    <div className="counter">
       <h1>{count}</h1>
 
       <button
-        className="Button"
+        className="button"
         onClick={handleClick}
       >
         Click here
       </button>
 
       {count === props.maxValue
-        ? <span className="Counter-error">You reach the limit</span>
+        ? <span className="counter-error">You reach the limit</span>
         : null
       }
 
